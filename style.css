@@ -26,21 +26,25 @@
 .navbar>ul{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
 .navbar>ul>li{
     list-style: none;
+    margin-left: 3rem;
 }
 .navbar>ul>li>a{
     text-decoration: none;
     text-transform: uppercase;
 }
+.navbar>ul>li>a:hover{
+    color: rgb(233, 184, 184);
+}
 .photos{
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    min-width: 600px;
-    max-width: 1024px;
+   
     flex-wrap: wrap;
 }
 .photos>img{
@@ -54,7 +58,10 @@
 
 }
 .content>p{
+    display: flex;
     font-family: sans-serif;
     letter-spacing: 0.09rem;
     line-height: 1.5rem;
+    text-align: justify;
+    min-width: 300px;
 }
