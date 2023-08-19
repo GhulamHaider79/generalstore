@@ -1,0 +1,60 @@
+.main-body{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    width: 98%;
+    border: ;
+    display: flex;
+    justify-content: center;
+    border:5px solid;
+    border-style: double;
+    
+
+}
+.main{
+    width: 70%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(77, 76, 76);
+}
+.navbar>ul{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.navbar>ul>li{
+    list-style: none;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.photos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    min-width: 600px;
+    max-width: 1024px;
+    flex-wrap: wrap;
+}
+.photos>img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18rem;
+    height: 15rem;
+}
+.content{
+    margin-bottom: 5rem;
+
+}
+.content>p{
+    font-family: sans-serif;
+    letter-spacing: 0.09rem;
+    line-height: 1.5rem;
+}
